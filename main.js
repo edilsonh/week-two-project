@@ -40,7 +40,6 @@ function question2 () {
 // 3: Which item has a "GBP" currency code? Display it's name and price.
 function question3 () {
   // Answer:
-  let gbp = [];
   data.forEach(function (value) {
     if (value.currency_code === "GBP") {
       console.log(`${value.title} costs ${value.price} pounds.`);
